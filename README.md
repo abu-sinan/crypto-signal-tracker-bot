@@ -75,12 +75,10 @@ python bot_listener.py
 
 ## 📊 Google Sheet Columns
 
-```
 | Pair    | Entry  | SL    | TP    | Status | MFE  | MAE  |
 |---------|--------|-------|-------|--------|------|------|
 | BTCUSDT | 34500  | 34000 | 35500 | OPEN   | 0.0  | 0.0  |
 | ETHUSDT | 2400   | 2300  | 2600  | CLOSED | 150  | 20   |
-```
 
 ---
 
