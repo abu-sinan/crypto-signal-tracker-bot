@@ -1,4 +1,4 @@
-![Crypto Signal Tracker Bot](https://github.com/abu-sinan/crypto-signal-tracker-bot/blob/main/assets/thumbnail.png)
+![Crypto Signal Tracker Bot](https://github.com/abu-sinan/crypto-signal-tracker-bot/blob/main/assets%20%2Fthumbnail.png)
 # 📈 Crypto Signal Tracker Bot
 
 A Telegram bot that listens to crypto trading signals from a private channel or group, fetches real-time prices from Binance, tracks signals (TP/SL), logs everything into Google Sheets, and sends alert notifications when targets are hit.
