@@ -1,3 +1,4 @@
+![Crypto Signal Tracker Bot](https://github.com/abu-sinan/crypto-signal-tracker-bot/blob/main/assets/thumbnail.png)
 # 📈 Crypto Signal Tracker Bot
 
 A Telegram bot that listens to crypto trading signals from a private channel or group, fetches real-time prices from Binance, tracks signals (TP/SL), logs everything into Google Sheets, and sends alert notifications when targets are hit.
@@ -57,13 +58,15 @@ cd crypto-signal-tracker-bot
 
   - Place it in the project folder.
 
+  - Sheet access with service account email.
+
 ### 3. Bot Configuration:
 
   - Add your Telegram bot token.
 
-  - Add your Google Sheet ID.
-
   - Add your Binance API key (read-only).
+
+  - Add your Binance API secret.
 
 ### 4. Run the Bot:
 
@@ -99,7 +102,7 @@ Use `.gitignore` to protect sensitive files.
 
 ## 📄 License
 
-This project is open-source under the MIT License.
+This project is open-source under the [MIT License](https://github.com/abu-sinan/crypto-signal-tracker-bot/blob/main/LICENSE).
 
 ---
 
@@ -111,4 +114,4 @@ Pull requests and suggestions are welcome! For major changes, please open an iss
 
 ## 📞 Contact
 
-For support or inquiries, reach out via Telegram or open a GitHub issue.
+For support or inquiries, reach out via [LinkedIn](https://www.linkedin.com/in/abusinan) or open a GitHub issue.
