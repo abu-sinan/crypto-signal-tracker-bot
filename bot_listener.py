@@ -9,15 +9,15 @@ from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filte
 from binance.client import Client  # Import Binance client
 
 # ==== CONFIG ====
-BOT_TOKEN = '8067881329:AAFiBXQ-xx49Y_F2zU2DXvCjM9rDdJDBFJo'
-ALERT_CHANNEL_ID = -1002518196842  # Replace with your channel ID
+BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+ALERT_CHANNEL_ID = -1002518××××××  # Replace with your channel ID
 
-BINANCE_API_KEY = 'CFmHjCpMrBoH05o3rVgd1Y8Q4iqnVKb3VYlhXjy5JlTE5CgzEUn3yMzEy5FCTC8a'
-BINANCE_API_SECRET = 'zTqxZXgkaQwea2gf7YuXDhjh50uW5GSPGhfTSdCeI8GBPdGwduNm8VRfVXHVYYXT'
+BINANCE_API_KEY = 'YOUR_BINANCE_API_KEY'
+BINANCE_API_SECRET = 'YOUR_BINANCE_API_SECRET'
 
 # Google Sheets setup
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-creds = ServiceAccountCredentials.from_json_keyfile_name('credentials.json', scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name('credentials.json', scope) #Replace with your credentials.json
 client_gsheets = gspread.authorize(creds)
 spreadsheet = client_gsheets.open('Crypto Signals')
 worksheet = spreadsheet.sheet1
